@@ -1,4 +1,0 @@
-discord.py
-colorama
-chat_exporter
-python-dotenv

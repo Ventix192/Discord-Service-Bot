@@ -351,7 +351,7 @@ if get_config("Numberguess")["Enabled"] == True:
 
         if game_active and message.content.strip() == str(target_number):
             game_active = False
-            await message.channel.send(f"> Glückwunsch, {message.author.mention}! Du hast die Zahl ({target_number}) erraten!\n > Bitte sende <@825085110357327934> eine DM mit deinem CFX Name!")
+            await message.channel.send(f"> Glückwunsch, {message.author.mention}! Du hast die Zahl ({target_number}) erraten!\n > Bitte sende <@934085062683684874> eine DM mit deinem CFX Name!")
 
     @client.slash_command(guild_ids = servers, name="game-start", description="🎮 Startet das Zahlen erraten Game")
     @commands.has_permissions(administrator=True)
@@ -769,7 +769,7 @@ class MemberPlusModal(discord.ui.Modal):
         super().__init__(*args, **kwargs)
 
         self.add_item(
-            discord.ui.InputText(label="Member-ID", placeholder="825085110357327934")
+            discord.ui.InputText(label="Member-ID", placeholder="934085062683684874")
         )
 
     async def callback(self, interaction: discord.Interaction):
@@ -791,7 +791,7 @@ class MemberMinusModal(discord.ui.Modal):
         super().__init__(*args, **kwargs)
 
         self.add_item(
-            discord.ui.InputText(label="Member-ID", placeholder="825085110357327934")
+            discord.ui.InputText(label="Member-ID", placeholder="934085062683684874")
         )
 
     async def callback(self, interaction: discord.Interaction):

@@ -22,12 +22,6 @@ This modular Python-based Discord bot offers functionality for server welcoming,
 pip install -r requirements.txt
 ```
 
-If no `requirements.txt` is provided:
-
-```bash
-pip install discord.py colorama chat_exporter python-dotenv
-```
-
 ### 2. Configure the Bot
 
 Adjust the `config.py` file to fit your server. Enable or disable modules and define channel IDs, colors, and other settings.
